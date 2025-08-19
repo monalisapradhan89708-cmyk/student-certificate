@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Verification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            text-align: center;
+            width: 350px;
+        }
+
+        .circle {
+            width: 60px;
+            height: 60px;
+            background-color: #007bff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 20px auto;
+            position: relative;
+        }
+
+        .tick {
+            width: 25px;
+            height: 12px;
+            border-left: 3px solid white;
+            border-bottom: 3px solid white;
+            transform: rotate(-45deg);
+        }
+
+        h2 {
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+
+        .info {
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        .info p {
+            margin: 8px 0;
+        }
+
+        .button {
+            margin-top: 25px;
+            background-color: #007bff;
+            color: #fff;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 6px;
+            display: inline-block;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="circle">
+            <div class="tick"></div>
+        </div>
+        <h2>Certificate has been verified</h2>
+        <p>Student's information has been successfully verified.</p>
+
+        <div class="info">
+            <p><strong>Name:</strong> Monalisa Pradhan</p>
+            <p><strong>Email:</strong> monalisapradhan89708@gmail.com</p>
+            <p><strong>Domain:</strong> Python Development</p>
+            <p><strong>Duration:</strong> 1 month</p>
+        </div>
+
+        <a href="#" class="button">Go to Certification Verification</a>
+    </div>
+
+</body>
+</html>
